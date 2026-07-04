@@ -298,18 +298,6 @@ docker run -p 5000:5000 sentiment-analysis
 
 ---
 
-## 📷 Project Screenshots
-
-Add screenshots here after deployment:
-
-```text
-screenshots/
-├── homepage.png
-├── prediction.png
-├── wordcloud_positive.png
-└── confusion_matrix.png
-```
-
 ---
 
 ## 🔮 Future Enhancements
