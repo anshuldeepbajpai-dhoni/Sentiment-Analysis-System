@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sentiment Analysis System
 
 An end-to-end NLP project using Machine Learning and Flask.
@@ -101,3 +102,6 @@ python app.py
 - Database Integration
 
 ---
+=======
+# Sentiment-Analysis-System
+>>>>>>> 1332b26ce1e853dd30bbe3ea88218f7f156e799e
