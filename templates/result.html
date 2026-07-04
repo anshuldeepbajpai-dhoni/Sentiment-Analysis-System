@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Prediction Result</title>
+
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container mt-5">
+
+<div class="card shadow p-4">
+
+<h1 class="text-center">
+
+Prediction Result
+
+</h1>
+
+<hr>
+
+<h5>
+
+Review:
+
+</h5>
+
+<p>
+
+{{ review }}
+
+</p>
+
+<hr>
+
+{% if sentiment=="positive" %}
+
+<div class="alert alert-success">
+
+Positive Review 😊
+
+</div>
+
+{% else %}
+
+<div class="alert alert-danger">
+
+Negative Review 😔
+
+</div>
+
+{% endif %}
+
+<a
+href="/"
+class="btn btn-secondary">
+
+Try Again
+
+</a>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
