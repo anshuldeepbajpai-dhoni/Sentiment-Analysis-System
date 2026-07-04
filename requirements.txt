@@ -1,12 +1,7 @@
 Flask
-pandas
+gunicorn
 numpy
+pandas
 scikit-learn
 nltk
 joblib
-matplotlib
-wordcloud
-seaborn
-jupyter
-notebook
-gunicorn
